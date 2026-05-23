@@ -4,7 +4,7 @@ El proyecto destaca por la convergencia de entornos **Open Source (Linux)** y **
 
 ---
 
-## 🛠️ Stack Tecnológico
+## Stack Tecnológico
 
 * **Infraestructura y Red:** OPNsense (Firewall Perimetral), pfSense (Firewall Interno), Enrutamiento DMZ/LAN, NAT/PAT.
 * **Sistemas y Directorio:** Windows Server 2019/2022 (Active Directory DS, DNS, DHCP, AD CS).
@@ -15,7 +15,7 @@ El proyecto destaca por la convergencia de entornos **Open Source (Linux)** y **
 
 ---
 
-## 📐 Arquitectura del Sistema
+## Arquitectura del Sistema
 
 El ecosistema se distribuye en tres zonas lógicas para garantizar el aislamiento de seguridad y la tolerancia a fallos:
 
@@ -25,7 +25,7 @@ El ecosistema se distribuye en tres zonas lógicas para garantizar el aislamient
 
 ---
 
-## 🚀 Características Técnicas Destacadas
+## Características Técnicas Destacadas
 
 ### 1. Securización de Identidades e Integración LDAPS (Capa de Aplicación)
 Se ha desarrollado un portal de autogestión en PHP integrado directamente con Active Directory, permitiendo el inicio de sesión único (SSO) y la modificación de credenciales de dominio desde la Intranet.
@@ -55,7 +55,7 @@ Aseguramiento de la continuidad de negocio mediante políticas de copias de segu
 
 ---
 
-## 💻 Código Destacado del Repositorio
+## Código Destacado del Repositorio
 
 ### Script de Respaldo Desacoplado Cloud (`backup_aws.sh`)
 Ubicado en el Apéndice de Automatización, este script demuestra el flujo completo de empaquetado, volcado SQL y transferencia segura a Amazon S3:
